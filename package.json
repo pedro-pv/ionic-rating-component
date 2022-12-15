@@ -24,6 +24,9 @@
         "email": "jacobo@squareet.com.com",
         "url": "https://squareet.com"
     },
+    "scripts": {
+        "build": "ng-packagr"
+    },
     "contributors": [{
             "name": "Alberto Rial Barreiro",
             "email": "alberto@squareet.com",
@@ -38,12 +41,17 @@
     "license": "MIT",
     "homepage": "https://github.com/squareetlabs/ionic-rating-component",
     "peerDependencies": {
-        "@angular/common": "^14.0.0",
-        "@angular/core": "^14.0.0",
-        "@angular/forms": "^14.0.0",
+        "@angular/common": "^13.2.2",
+        "@angular/router": "^13.2.2",
+        "@angular/core": "^13.2.2",
+        "@angular/forms": "^13.2.2",
         "@ionic/angular": "^5.0.0 || ^6.0.0"
     },
     "dependencies": {
         "tslib": "^2.2.0"
+    },
+    "devDependencies": {
+        "ng-packagr": "^13.2.2"
+
     }
 }
